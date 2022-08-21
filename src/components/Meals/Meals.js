@@ -1,12 +1,11 @@
-import { Fragment } from "react";
-import classes from './Meals.module.css';
-import MealsItem from "./MealsItems";
+import { Fragment } from 'react';
+import AvailableMeals from './AvailableMeals';
+import MealsSummary from './MealsSummary';
 
-const Meals = props => {
+const Meals = () => {
     return <Fragment>
-        <div className={classes.expenseItem}>
-            <MealsItem />
-        </div>
+        <MealsSummary />
+        <AvailableMeals />
     </Fragment>
 }
 
