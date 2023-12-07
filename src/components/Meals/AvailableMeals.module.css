@@ -1,24 +1,50 @@
 .meals {
-    max-width: 60rem;
-    width: 90%;
-    margin: 2rem auto;
-    animation: meals-appear 1s ease-out forwards;
+  max-width: 1170px;
+  width: 100%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
 }
-  
+
+@media (max-width: 767px) {
+  .meals {
+    max-width: 100%;
+  }
+}
+
 .meals ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-  
+.meals ul li{
+  width: 22.1%;
+  display: inline-block;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .meals ul li{
+    width: 100%;
+  }
+}
+
+.meals ul li img {
+  width: 100%;
+}
+
 @keyframes meals-appear {
-    from {
-        opacity: 0;
-        transform: translateY(3rem);
-    }
-  
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
