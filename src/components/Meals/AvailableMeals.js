@@ -8,28 +8,28 @@ const DUMMY_MEALS = [
     name: 'Sushi',
     description: 'Finest fish and veggies',
     price: 22.99,
-    image: 'https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5635/01.jpg'
+    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2'
   },
   {
     id: 'm2',
     name: 'Schnitzel',
     description: 'A german specialty!',
     price: 16.5,
-    image: 'https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5634/08.jpg'
+    image: 'https://images.unsplash.com/photo-1432139555190-58524dae6a55'
   },
   {
     id: 'm3',
     name: 'Barbecue Burger',
     description: 'American, raw, meaty',
     price: 12.99,
-    image: 'https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5630/04.jpg'
+    image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435'
   },
   {
     id: 'm4',
     name: 'Green Bowl',
     description: 'Healthy...and green...',
     price: 18.99,
-    image: 'https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5633/07.jpg'
+    image: 'https://images.unsplash.com/photo-1625938393850-10f1f23de467'
   },
 
   {
@@ -37,7 +37,28 @@ const DUMMY_MEALS = [
     name: 'Pizza',
     description: 'Healthy...and green...',
     price: 18.99,
-    image: 'https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5631/05.jpg'
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591'
+  },
+  {
+    id: 'm6',
+    name: 'Food 1',
+    description: 'Healthy...and green...',
+    price: 13.99,
+    image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141'
+  },
+  {
+    id: 'm7',
+    name: 'Food 2',
+    description: 'Healthy...and green...',
+    price: 14.99,
+    image: 'https://images.unsplash.com/photo-1546964124-0cce460f38ef'
+  },
+  {
+    id: 'm8',
+    name: 'Food 3',
+    description: 'Healthy...and green...',
+    price: 15.99,
+    image: 'https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8'
   },
 ];
 
